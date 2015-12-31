@@ -1,5 +1,5 @@
 exports.serveIndex = function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Request Header Parser Microservice' });
 };
 
 exports.whoami = function(req, res, next) {

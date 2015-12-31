@@ -9,7 +9,27 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="jumbotron">
+            <h1><%= title %></h1>
+            <p>A microservice where the user can get the their IP address, language and operating system information</p>
+          </div>   
+          
+            <h3>Usage:</h3>
+            <div class="well well-sm">
+              <p class="text-danger">Go to <a class="text-danger" href='/whoami'>https://request-header-parser-uc-ms.herokuapp.com/whoami</a>
+              </p>
+            </div>
+            <h3>Example output:</h3>
+            <div class="well well-sm">
+              <p class="text-danger">
+            {"ipaddress":"99.999.999.999","language":"en-US","software":"Windows NT 10.0; WOW64"}
+              </p>
+            </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

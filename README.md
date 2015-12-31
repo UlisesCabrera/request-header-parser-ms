@@ -1,18 +1,10 @@
+# Request Header Parser Microservice
+A microservice where the user can get the their IP address, language and operating system information.
+###Example Usage:
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+Go to <a class="text-danger" href='/whoami' target="_blank">https://request-header-parser-uc-ms.herokuapp.com/whoami</a>
 
-
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Happy coding!
-The Cloud9 IDE team
+###Example output:
+```sh
+{"ipaddress":"99.999.999.999","language":"en-US","software":"Windows NT 10.0; WOW64"}
+```
